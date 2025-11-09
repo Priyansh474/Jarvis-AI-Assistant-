@@ -1,0 +1,15 @@
+My name is dheeraj, im studying in kristujayanti college im intrested in building models using tolls and technology.
+my roomate is prateek
+Sleep Schedule:
+- Usually sleeps late between 12 AM - 3 AM
+- Wakes up between 8 AM - 11 AM depending on schedule
+
+Learning Routine:
+- Studies programming and AI topics daily
+- Practices coding in VS Code
+- Watches tutorials and builds small projects
+
+General Preferences:
+- Likes clean UI and fast response systems
+- Prefers local control over cloud dependency
+- Learns better by doing rather than reading theory

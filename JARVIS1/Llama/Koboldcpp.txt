@@ -1,0 +1,14 @@
+✅ 2. Download KoboldCpp (Model Runner)
+
+KoboldCpp is required to load and run the .gguf model locally.
+
+Download the Windows executable here:
+
+https://github.com/LostRuins/koboldcpp/releases
+
+koboldcpp_cublas.exe
+
+
+Place it in the same folder:
+
+JARVIS/Llama/

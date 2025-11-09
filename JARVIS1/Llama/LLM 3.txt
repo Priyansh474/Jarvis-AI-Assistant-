@@ -1,0 +1,44 @@
+# 🧠 Personal JARVIS AI Assistant (Offline, Local LLM)
+
+This project is a **personal JARVIS-like AI assistant** that runs **completely offline** on our system.  
+It uses a **local LLaMA 3 model (GGUF)** executed through **KoboldCpp**, a **FastAPI backend** for communication,  
+a **web-based chat UI**, and **Pinecone** to store & recall your personal knowledge.
+
+---
+---
+
+✅>Download LLaMA Model (Required)
+
+The LLaMA model is not included because it is larger than GitHub’s upload limit.
+
+Download this file manually:
+https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
+
+Place it inside:
+Llama/
+
+✅ 2. Download KoboldCpp (Model Runner)
+
+KoboldCpp is required to load and run the .gguf model locally.
+
+Download the Windows executable here:
+
+https://github.com/LostRuins/koboldcpp/releases
+
+koboldcpp_cublas.exe
+
+
+Place it in the same folder:
+
+JARVIS/Llama/
+
+## ✨ Features
+
+| Feature | Description |
+|--------|-------------|
+| **Runs Offline** | No internet required for AI responses |
+| **Local LLaMA 3 (8B)** | Runs on consumer GPUs (3050, 1650, etc.) |
+| **Powered by KoboldCpp** | Efficient GGUF model loader & OpenAI-style API |
+| **Web Chat Interface** | Easy and clean UI to interact with your AI |
+| **Memory with Pinecone** | Learns from your `.txt` files and recalls later |
+| **Expandable Knowledge** | Just add text → run ingest → JARVIS learns |
